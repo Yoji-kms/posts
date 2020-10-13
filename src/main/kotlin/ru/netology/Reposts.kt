@@ -1,6 +1,6 @@
 package ru.netology
 
 data class Reposts(
-    var count: Int,
-    val userReposted: Boolean
+    var count: Int = 0,
+    val userReposted: Boolean = false
 )
